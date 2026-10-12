@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 開発の進め方
+
+- 実装を自律的に任せる前に、アーキテクチャ・issue の粒度・スコープを人間と議論して決める。決まっていない論点があれば、実装に入る前に挙げて確認する（先に任せすぎると、意図と違う方向に育って作り直しになる）
+
 ## 注意点
 
 - 日本語でコミュニケーションする
