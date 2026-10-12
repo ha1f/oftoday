@@ -1,0 +1,10 @@
+# claude
+.claude/settings.local.json
+.claude/tmp
+.claude/worktrees
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
