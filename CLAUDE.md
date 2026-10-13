@@ -4,6 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 開発の進め方
 
+- サービスの目的と前提は [docs/vision.md](docs/vision.md) に書いてある。vision.md の中身は人間が決める。設計や issue を判断するときの基準になるので、AI はほかの作業のついでに書き足さず、変えたいときは PR か issue で提案する
 - 実装を自律的に任せる前に、アーキテクチャ・issue の粒度・スコープを人間と議論して決める。決まっていない論点があれば、実装に入る前に挙げて確認する（先に任せすぎると、意図と違う方向に育って作り直しになる）
 
 ## 注意点
