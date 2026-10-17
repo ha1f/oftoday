@@ -6,6 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - この repo には複数のプロダクトを置く（monorepo）。docs はプロダクトごとに `docs/<プロダクト名>/` に分け、目的と前提はそれぞれの vision.md に書く。今あるのは [oftoday](docs/oftoday/vision.md) だけ
 - vision.md の中身は人間が決める。設計や issue を判断するときの基準になるので、AI はほかの作業のついでに書き足さず、変えたいときは PR か issue で提案する
+- 設計を決めるときと、サービスの言葉を型名にするとき、保存や通信をするデータの形を決めるとき、外部サービスや全体の構成に関わるときは、[docs/README.md](docs/README.md) を読んで従う
 - 実装を自律的に任せる前に、アーキテクチャ・issue の粒度・スコープを人間と議論して決める。決まっていない論点があれば、実装に入る前に挙げて確認する（先に任せすぎると、意図と違う方向に育って作り直しになる）
 
 ## 注意点
